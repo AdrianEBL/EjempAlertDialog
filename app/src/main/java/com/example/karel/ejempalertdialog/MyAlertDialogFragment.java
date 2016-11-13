@@ -12,7 +12,7 @@ public class MyAlertDialogFragment extends DialogFragment {
 
         Bundle args = new Bundle();
         args.putInt("title", title);
-        args.putString("message", "\n:/\n:D\n:)\n:p");
+        args.putString("message", "\nAlert\nDialog\nBox\nExample");
         args.putInt("icon", R.mipmap.ic_happy_plus);
 
         frag.setArguments(args);

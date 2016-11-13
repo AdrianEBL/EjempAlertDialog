@@ -93,7 +93,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         customDialog.setContentView(R.layout.custom_dialog_layout);
 
         ((TextView) customDialog.findViewById(R.id.sd_textView1))
-                .setText("\n:o\n:D\n" + ":P");
+                .setText("\nCustom\nDialog\nBox");
 
         final EditText sd_txtInputData = (EditText) customDialog
                 .findViewById(R.id.sd_editText1);
